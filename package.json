@@ -1,0 +1,30 @@
+{
+  "name": "crop-image",
+  "version": "1.0.0",
+  "description": "Standalone mock for a reusable image crop + background-removal component (before porting into 80-ui)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "vue-tsc --noEmit",
+    "drive": "node scripts/drive.mjs"
+  },
+  "dependencies": {
+    "antdv-next": "^1.4.5",
+    "vue": "^3.5.40",
+    "vue-advanced-cropper": "^2.8.9"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "playwright": "^1.64.1",
+    "typescript": "^5.7.3",
+    "vite": "^6.3.5",
+    "vitest": "^2.1.9",
+    "vue-tsc": "^2.2.10"
+  }
+}
